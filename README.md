@@ -1,2 +1,7 @@
 # nycu.moe
-交大宅系社團聯合體系 (交大 VTuber 社)
+交大 VTuber 社 (虛擬偶像社)
+
+## Theme Credits
+Eventually by HTML5 UP
+
+https://html5up.net | [@ajlkn](https://twitter.com/ajlkn)
