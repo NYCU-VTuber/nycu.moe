@@ -36,13 +36,7 @@
 
 			// Images (in the format of 'url': 'alignment').
 			images: {
-				'images/ayame_shake.webp': 'center',
-				'images/korone.webp': 'center',
-				'images/toko.jpg': 'top',
-				'images/ayame.jpg': 'center',
-				'images/gura.png': 'left',
-				'images/shiro.jpeg': 'right',
-				'images/fubuki.webp': 'center'
+				'images/96425070_p0.jpg': 'center'
 			},
 
 			// Delay.
