@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html data-scheme="dark">
 
 <head>
   <title>交大 VTuber 社 (虛擬偶像社)</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
@@ -19,7 +20,16 @@
     })(window, document, "script", "dataLayer", "GTM-WNBD6R4");
   </script>
   <!-- End Google Tag Manager -->
-  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.1.0/tocas.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.1.0/tocas.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/main.min.css" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -31,63 +41,83 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNBD6R4" height="0" width="0"
       style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <!-- Header -->
-  <header id="header">
-    <h1>
-      交大 VTuber 社
-      <p style="font-size: smaller; color: white; margin: 0 0 0.75em 0">
-        (虛擬偶像社)
-      </p>
-    </h1>
-    <span><a href="pdf/nycu-vtb-article-of-association.pdf">社團章程</a> － <a
-        href="https://goo.gl/maps/4Xb4DdpbF3LiishU9">社辦 [活動中心537]</a>
-    </span>
-    <p>把我們的油灑遍全世界，油DAYO！</p>
-  </header>
 
-  <!-- Links -->
-  <h3><a href="https://discord.gg/GPBJPshrBU">1. Discord 伺服器</a></h3>
-  <h3><a href="https://clubportal.nycu.edu.tw/club/view/join/FB582EFE-DA4E-4DCB-AC0E-7DB05BD992F4">2. 社團入口網 | 入社申請</a>
-  </h3>
-  <h3><a href="https://www.facebook.com/groups/nycu.vtuber">3. 社員專屬 FB 社團</a>
-  </h3>
+  <div class="ts-app-layout is-vertical is-full">
+    <div style="backdrop-filter: brightness(30%);">
+      <div class="ts-container">
+        <div class="navbar ts-tab is-center-aligned">
+          <br>
+          <a href="index.html" class="item is-active">
+            <span class="ts-icon is-house-icon"></span>
+          </a>
+          <a href="about.html" class="item">
+            <span class="ts-icon is-cat-icon"></span>
+            <div class="label">社團介紹</div>
+          </a>
+          <a href="https://nctu.moe/join" class="item">
+            <span class="ts-icon is-heart-icon"></span>
+            <div class="label">入社</div>
+          </a>
+          <a href="https://discord.gg/GPBJPshrBU" class="item">
+            <span class="ts-icon is-discord-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-  <!-- Footer -->
-  <footer id="footer">
-    <ul class="icons">
-      <li>
-        <a href="https://www.facebook.com/nycu.vtuber" class="icon brands fa-facebook"><span
-            class="label">Facebook</span></a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCeYWIVs1U6AZ82fPw4KeBqg" class="icon brands fa-youtube"><span
-            class="label">YouTube</span></a>
-      </li>
-      <li>
-        <a href="https://discord.gg/GPBJPshrBU" class="icon brands fa-discord"><span class="label">Discord</span></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/nycu_vtuber" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
-      </li>
-      <li>
-        <a href="https://nycu.itch.io/" class="icon brands fa-itch-io"><span class="label">itch.io</span></a>
-      </li>
-      <li>
-        <a href="https://github.com/NYCU-VTuber" class="icon brands fa-github"><span class="label">GitHub</span></a>
-      </li>
-      <li>
-        <a href="mailto:vtuber@nycu.moe" class="icon fa-envelope"><span class="label">Email</span></a>
-      </li>
-    </ul>
-    <ul class="copyright">
-      <li>
-        &copy; NYCU VTuber Club － 背景：<a href="https://www.pixiv.net/artworks/96425070">🐈🦈 (C4)</a>
-      </li>
-    </ul>
-  </footer>
+    <div class="banner-content">
+      <!-- Header -->
+      <header id="header">
+        <h1>
+          交大 VTuber 社
+          <p style="font-size: smaller; color: white; margin: 0 0 0.75em 0">
+            (虛擬偶像社)
+          </p>
+        </h1>
+        <p>把我們的油灑遍全世界，油DAYO！</p>
+
+        <!-- Links -->
+        <h3><a href="pdf/nycu-vtb-article-of-association.pdf">社團章程</a></h3>
+        <h3><a href="https://goo.gl/maps/4Xb4DdpbF3LiishU9">社辦：活動中心537</a></h3>
+      </header>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li>
+          <a href="https://www.facebook.com/nycu.vtuber"><span class="ts-icon is-big is-facebook-icon"></span></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@nycu.vtuber"><span class="ts-icon is-big is-youtube-icon"></span></a>
+        </li>
+        <li>
+          <a href="https://discord.gg/GPBJPshrBU"><span class="ts-icon is-big is-discord-icon"></span></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/nycu_vtuber"><span class="ts-icon is-big is-twitter-icon"></span></a>
+        </li>
+        <li>
+          <a href="https://nycu.itch.io"><span class="ts-icon is-big is-itch-io-icon"></span></a>
+        </li>
+        <li>
+          <a href="https://github.com/NYCU-VTuber"><span class="ts-icon is-big is-github-icon"></span></a>
+        </li>
+        <li>
+          <a href="mailto:vtuber@nycu.moe"><span class="ts-icon is-big is-envelope-icon"></span></a>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>
+          &copy; NYCU VTuber Club － 背景：<a href="https://www.pixiv.net/artworks/96425070">🐈🦈 (C4)</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 
   <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.min.js"></script>
+  <script src="assets/js/slideshow.min.js"></script>
 </body>
 
 </html>
