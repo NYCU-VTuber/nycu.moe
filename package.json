@@ -11,7 +11,7 @@
   "author": "Edison Lee <edisonlee@edisonlee55.com>",
   "license": "MIT",
   "dependencies": {
-    "tocas": "^4.1.0"
+    "tocas": "^4.2.4"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
