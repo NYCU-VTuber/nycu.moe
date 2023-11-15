@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   tocas:
-    specifier: ^4.2.4
-    version: 4.2.4
+    specifier: ^4.2.5
+    version: 4.2.5
 
 devDependencies:
   http-server:
@@ -257,8 +257,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /tocas@4.2.4:
-    resolution: {integrity: sha512-MvCHf+rg/IEr6wVVc92OB5aLDUlrxih9o7A3dXi7KqvyKO5b+4AiF83xwY0BL4+1q/zcNdZO68aAGtkS5snvEQ==}
+  /tocas@4.2.5:
+    resolution: {integrity: sha512-c4EnrXYVsj02lBb2mFp2wQh3LclPL0EDPmbROuup4pNRuB7wzuBDxW1cAMRymuyfqX00shk8AdIOTLQY1YEIAQ==}
     dev: false
 
   /union@0.5.0:
