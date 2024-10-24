@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Edison Lee <edisonlee@edisonlee55.com>",
+  "author": "yuna0x0 <yuna@yuna0x0.com>",
   "license": "MIT",
   "dependencies": {
-    "tocas": "^4.2.5"
+    "tocas": "^5.0.1"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
