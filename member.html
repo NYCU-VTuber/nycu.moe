@@ -69,7 +69,26 @@
     </div>
     <div class="ts-container" style="margin-top: 50px;">
       <div class="ts-wrap is-vertical">
-        <h2>交大 VTuber 社 | 社團成員</h2>
+        <div style="width: 100%; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+          <div>
+            <h2>交大 VTuber 社 | 社團成員</h2>
+          </div>
+
+          <div style="display: flex; flex-direction: row; gap: 0.8rem;">
+            <button id="tableViewBtn"
+                    style="width: 3rem; height: 3rem; border: 2px solid #999; border-radius: 20%; background-color: #555; color: white; cursor: pointer; transition: background-color 0.2s, border-color 0.2s; display: flex; align-items: center; justify-content: center;"
+                    data-tooltip="總覽檢視">
+              <div class="ts-icon is-table-icon"></div>
+            </button>
+            <button id="listViewBtn"
+                    style="width: 3rem; height: 3rem; border: 2px solid #999; border-radius: 20%; background-color: transparent; color: black; cursor: pointer; transition: background-color 0.2s, border-color 0.2s; display: flex; align-items: center; justify-content: center;"
+                    data-tooltip="條列顯示">
+              <div class="ts-icon is-list-ul-icon"></div>
+            </button>
+          </div>
+        </div>
+
+        <div style="margin-top: 25px;"></div>
 
         <div class="ts-iconset" id="term-4-team">
           <span class="ts-icon is-cat-icon"></span>
@@ -762,11 +781,39 @@
         </div>
 
         <div class="has-top-spaced"></div>
+      </div>
     </div>
   </div>
 
   <!-- Scripts -->
   <script src="assets/js/main.min.js"></script>
+    <script>
+      const tableBtn = document.getElementById('tableViewBtn');
+      const listBtn = document.getElementById('listViewBtn');
+
+      function setActive(view) {
+        if (view === 'table') {
+          tableBtn.style.backgroundColor = '#555';
+          tableBtn.style.borderColor = '#555';
+          tableBtn.style.color = 'white';
+
+          listBtn.style.backgroundColor = 'transparent';
+          listBtn.style.borderColor = '#999';
+          listBtn.style.color = 'black';
+        } else {
+          listBtn.style.backgroundColor = '#555';
+          listBtn.style.borderColor = '#555';
+          listBtn.style.color = 'white';
+
+          tableBtn.style.backgroundColor = 'transparent';
+          tableBtn.style.borderColor = '#999';
+          tableBtn.style.color = 'black';
+        }
+      }
+
+      tableBtn.addEventListener('click', () => setActive('table'));
+      listBtn.addEventListener('click', () => setActive('list'));
+    </script>
 </body>
 
 </html>
